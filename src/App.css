@@ -1,38 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 1000vh;
+}
+h3 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
 .App {
+  background-color: azure;
+  font-size: 30px;
+}
+.total-container {
+  width: 100%; /* Set the width to 100% of the parent element */
+  max-width: 1200px; /* Set a maximum width to avoid overly wide containers */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding inside the container */
+  box-sizing: border-box; /* Include padding and border in the total width and height */
+  background-color: #ffffff;
+}
+.sub-container {
+  height: 420px;
+  width: 400px;
+  border: 1px solid burlywood;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-left: 12px;
+}
+.product-img {
+  width: 85%;
+  height: 100px;
+  border-bottom: 1px solid rgb(144, 144, 211);
+  margin: 10px;
+}
+.card-container {
+  display: flex;
+}
+.container-text {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.task-1-2 {
+  text-align: center;
+}
+.task-1-2 button {
+  height: 34px;
+  width: 70px;
+  background-color: rgb(7, 81, 81);
+  color: #fff;
+  border-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* t3-styles */
+.t-3-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.toggle {
+  background-color: rgb(141, 141, 198);
+  height: 30px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+}
+.toggle_left {
+  height: 20px;
+  width: 20px;
+  background-color: green;
+  border-radius: 20px;
+  margin: 5px;
+}
+.toggle_right {
+  height: 20px;
+  width: 20px;
+  background-color: #c02525;
+  border-radius: 20px;
+  margin: 5px 5px 5px 35px;
 }
 
-.App-link {
-  color: #61dafb;
+/* task4 */
+.task4 {
+  text-align: center;
+  margin-top: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+  color: blueviolet;
+}
+.task1-5 {
+  text-align: center;
+}
+.btn {
+  height: 40px;
+  width: 200px;
+  background-color: blue;
+  color: #ffffff;
+  border-radius: 23px;
+  border: 0.5px solid #fff;
+}
+.child {
+  color: rgb(223, 129, 5);
+}
+.btn1 {
+  height: 32px;
+  width: 56px;
+  border-radius: 10px;
+  background-color: green;
+  color: #fff;
 }
